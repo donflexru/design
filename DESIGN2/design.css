@@ -1,0 +1,183 @@
+.container .head{
+    background-color: rgba(99, 10, 10, 0.876);
+    font-size: 25px;
+    color: white;
+    font-weight: bolder;
+}
+
+
+.contents{
+    background-color: white;
+    padding: 2%;
+}
+.contents .main{
+    background-image: url(../DESIGN2/web-development.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.main-article{
+    margin: 0px auto;
+    
+    width: 60%;
+    height: 100vh;
+    background-color: white;
+}
+.main-article .header{
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+   grid-template-columns: 1.5fr 2fr;
+
+  
+    background-color: rgba(99, 10, 10, 0.876);
+    padding: 10px;
+   
+}
+.header .side1 strong{
+    text-transform: uppercase;
+    letter-spacing: 43.75%;
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    color: white;
+
+}
+.side1 #bold{
+    letter-spacing: 7px;
+    font-size: 25px;
+}
+.side1{
+    border-right: 2px solid white;
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+   
+   
+}
+.side2 h2{
+    padding: 0;
+    font-size: 18px;
+    margin-left: 2%;
+    color: white;
+    font-weight: bold;
+}
+.second-header{
+    background-color: rgba(99, 10, 10, 0.876);
+    margin-top: -15px;
+    box-shadow: 0.5px 0.5px 0.5px 0.5px rgb(236, 227, 227);
+    color: white;
+}
+.article-form{
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 10px;
+}
+.article-form h3{
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.article-form >div{
+    border: 2px solid black;
+    margin: 10px;
+    
+    border-radius: 5px;
+}
+.article-form1{
+    height: auto;
+}
+.contain{
+    display: grid;
+    grid-template-columns: auto auto;
+      grid-column: 1fr 2fr;
+}
+.item2{
+    text-align: right;
+    margin: 30px;
+   
+}
+.item2 button{
+    background-color: rgba(99, 10, 10, 0.876);
+    font-size: 18px;
+    color: lightgray;
+    box-shadow: whitesmoke 2px 4px 1px;
+}
+.item2 button:hover{
+   color: white;
+   background-color:pink;
+}
+.application-head{
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 5px;
+   font-size: 13px;
+   font-weight: bold;
+   margin: 10px;
+  
+}
+
+.article-form2{
+    font-size: 15px;
+}
+input{
+    text-align: center;
+    text-transform: capitalize;
+}
+h3{
+    font-family: sans-serif;
+    text-transform: capitalize;
+    text-align: center;
+}
+#submit{
+    text-align: center;
+    margin-bottom: 5px;
+}
+@media screen and (max-width:600px){
+
+   body .article-form1 marquee .contain-it>h2,p{
+     
+      font-size: 25px;
+    }
+    
+}
+@media screen and (max-width:570px){
+    body .main>.main-article {
+        width: 100%;
+    }
+}
+@media screen and (max-width:347px){
+    body .main>.main-article>.header strong{
+       font-size: 15px;
+    }
+
+body .main>.main-article>.header #bold{
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+}
+@media screen and (max-width:300px) {
+    body .main>.main-article .article-form1>.contain .item2> button{
+      /* position: relative;
+      left: -30%;  */
+    width: 80%;
+      font-size: 10px;
+
+    }
+    body .main>.main-article .article-form1>.contain .item2{
+        margin-left: -20%;
+    }
+    body .main>.main-article .article-form1>.contain .item1>h2{
+        font-size: 10px;
+        padding: 2px;
+
+    }
+    body .main>.main-article .article-form2>h2{
+        font-size: 15px;
+    }
+    body .main>.main-article .article-form2 input{
+        width: 80%;
+    }
+
+}
+
